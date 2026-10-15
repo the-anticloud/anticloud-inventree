@@ -1,0 +1,2667 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "INVENTREE",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\SUPERMARKETS\\INVENTREE\\UPSTREAM_CLONE",
+    "git": {
+      "head": "9478c25a70696feddafbff139e6f41d3b0abe78d",
+      "url": "https://github.com/inventree/InvenTree",
+      "branch": "master",
+      "committed_at": "2026-09-29T13:26:53+02:00"
+    }
+  },
+  "metrics": {
+    "files_total": 2155,
+    "source_files_scanned": 1153,
+    "lines_of_code": 274228,
+    "languages": {
+      ".py": 615,
+      ".tsx": 480,
+      ".png": 406,
+      ".md": 253,
+      ".ts": 89,
+      ".po": 81,
+      ".html": 56,
+      "(none)": 24,
+      ".yaml": 22,
+      ".js": 17,
+      ".jpg": 17,
+      ".css": 13,
+      ".yml": 9,
+      ".svg": 9,
+      ".json": 8
+    }
+  },
+  "licence": {
+    "spdx": "MIT",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 105,
+    "unique": 105,
+    "by_ecosystem": {
+      "npm": 105
+    },
+    "list": [
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/autocomplete",
+        "version": "^6.20.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lang-liquid",
+        "version": "^6.3.2",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/language",
+        "version": "^6.12.2",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/lint",
+        "version": "^6.9.5",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/search",
+        "version": "^6.6.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/state",
+        "version": "^6.6.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/theme-one-dark",
+        "version": "^6.1.3",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codemirror/view",
+        "version": "^6.40.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@floating-ui/dom",
+        "version": "^1.0.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@emotion/react",
+        "version": "^11.14.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fortawesome/fontawesome-svg-core",
+        "version": "^7.2.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fortawesome/free-regular-svg-icons",
+        "version": "^7.2.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fortawesome/free-solid-svg-icons",
+        "version": "^7.2.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fortawesome/react-fontawesome",
+        "version": "^3.3.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fullcalendar/core",
+        "version": "^6.1.21",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fullcalendar/daygrid",
+        "version": "^6.1.21",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fullcalendar/interaction",
+        "version": "^6.1.21",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@fullcalendar/react",
+        "version": "6.1.21",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@lingui/core",
+        "version": "^5.9.2",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@lingui/react",
+        "version": "^5.9.2",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@mantine/carousel",
+        "version": "^9.2.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@mantine/charts",
+        "version": "^9.2.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@mantine/core",
+        "version": "^9.2.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@mantine/dates",
+        "version": "^9.2.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@mantine/dropzone",
+        "version": "^9.2.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@mantine/form",
+        "version": "^9.2.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@mantine/hooks",
+        "version": "^9.2.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@mantine/modals",
+        "version": "^9.2.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@mantine/notifications",
+        "version": "^9.2.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@mantine/spotlight",
+        "version": "^9.2.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@mantine/tiptap",
+        "version": "^9.2.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@mantine/utils",
+        "version": "^6.0.22",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@mantine/vanilla-extract",
+        "version": "^9.2.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@messageformat/date-skeleton",
+        "version": "^1.1.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@sentry/react",
+        "version": "^10.57.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@tabler/icons-react",
+        "version": "^3.44.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@tanstack/react-query",
+        "version": "^5.101.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@tiptap/core",
+        "version": "^3.23.6",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@tiptap/extension-image",
+        "version": "^3.23.6",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@tiptap/extension-link",
+        "version": "^3.23.6",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@tiptap/extension-table",
+        "version": "^3.23.6",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@tiptap/pm",
+        "version": "^3.23.6",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@tiptap/react",
+        "version": "^3.23.6",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@tiptap/starter-kit",
+        "version": "^3.23.6",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@uiw/codemirror-theme-vscode",
+        "version": "^4.25.8",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@uiw/react-codemirror",
+        "version": "^4.25.8",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@uiw/react-split",
+        "version": "^5.9.4",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vanilla-extract/css",
+        "version": "^1.20.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "axios",
+        "version": "^1.17.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "clsx",
+        "version": "^2.1.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "codemirror",
+        "version": "^6.0.2",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "dayjs",
+        "version": "^1.11.21",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "dompurify",
+        "version": "^3.4.8",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "embla-carousel",
+        "version": "^8.6.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "embla-carousel-react",
+        "version": "^8.6.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "fuse.js",
+        "version": "^7.4.2",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "html5-qrcode",
+        "version": "^2.3.8",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mantine-contextmenu",
+        "version": "^9.2.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mantine-datatable",
+        "version": "^9.2.2",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "qrcode",
+        "version": "^1.5.4",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react",
+        "version": "^19.2.7",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-dom",
+        "version": "^19.2.7",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-grid-layout",
+        "version": "1.4.4",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-hook-form",
+        "version": "^7.78.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-is",
+        "version": "^19.2.7",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-router-dom",
+        "version": "^6.30.4",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-select",
+        "version": "^5.10.2",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-window",
+        "version": "1.8.11",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "recharts",
+        "version": "^3.8.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "styled-components",
+        "version": "^6.4.2",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "tiptap-extension-resizable-image",
+        "version": "^2.1.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "undici",
+        "version": "^8.4.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "zustand",
+        "version": "^5.0.14",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@babel/core",
+        "version": "^8.0.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@babel/preset-react",
+        "version": "^8.0.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@babel/preset-typescript",
+        "version": "^8.0.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@babel/runtime",
+        "version": "^8.0.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@codecov/vite-plugin",
+        "version": "^2.0.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@flakiness/playwright",
+        "version": "^2.0.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@lingui/babel-plugin-lingui-macro",
+        "version": "^5.9.5",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@lingui/cli",
+        "version": "^5.9.5",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@lingui/macro",
+        "version": "^5.9.5",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@playwright/test",
+        "version": "^1.60.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^26.0.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/qrcode",
+        "version": "^1.5.6",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/react",
+        "version": "^19.2.17",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/react-dom",
+        "version": "^19.2.3",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/react-grid-layout",
+        "version": "^1.3.5",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/react-router-dom",
+        "version": "^5.3.3",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/react-window",
+        "version": "^1.8.8",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vanilla-extract/vite-plugin",
+        "version": "^5.2.2",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vitejs/plugin-react",
+        "version": "^5",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "babel-plugin-macros",
+        "version": "^3.1.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "nyc",
+        "version": "^18.0.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "oauth2-mock-server",
+        "version": "^9.1.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "otpauth",
+        "version": "^9.5.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "path",
+        "version": "^0.12.7",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "rollup",
+        "version": "^4.61.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "rollup-plugin-license",
+        "version": "^3.7.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^6",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vite",
+        "version": "^7.0.0",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vite-plugin-babel-macros",
+        "version": "^1.0.6",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vite-plugin-dts",
+        "version": "^5.0.2",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vite-plugin-externals",
+        "version": "^0.6.2",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vite-plugin-istanbul",
+        "version": "^9.0.1",
+        "source_file": "src/frontend/package.json",
+        "raw": ""
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 180,
+    "files_with_findings": 148,
+    "severity": {
+      "high": 31,
+      "medium": 53,
+      "low": 96
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 6,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/plugin/registry.py",
+            "line": 1118,
+            "cwe": "CWE-327",
+            "snippet": "data = md5()"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/part/models.py",
+            "line": 2082,
+            "cwe": "CWE-327",
+            "snippet": "result_hash = hashlib.md5(str(self.id).encode())"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/part/test_bom_item.py",
+            "line": 495,
+            "cwe": "CWE-327",
+            "snippet": "result_hash = hashlib.md5(str(assembly.id).encode())"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/machine/registry.py",
+            "line": 423,
+            "cwe": "CWE-327",
+            "snippet": "data = md5()"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/InvenTree/conversion.py",
+            "line": 139,
+            "cwe": "CWE-327",
+            "snippet": "hash_md5 = md5()"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/InvenTree/helpers.py",
+            "line": 962,
+            "cwe": "CWE-327",
+            "snippet": "barcode_hash = hashlib.md5(str(barcode_data).encode())"
+          }
+        ]
+      },
+      "A03-Injection": {
+        "count": 16,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "tasks.py",
+            "line": 637,
+            "cwe": "CWE-78",
+            "snippet": "subprocess.check_output([cmd], stderr=subprocess.STDOUT, shell=True),"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/script/update_icons.py",
+            "line": 22,
+            "cwe": "CWE-78",
+            "snippet": "os.system(f'npm install --prefix {TMP_FOLDER} @tabler/icons @tabler/icons-webfont')  # ty:ignore[deprecated]"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/report/migrations/0026_auto_20240422_1301.py",
+            "line": 43,
+            "cwe": "CWE-89",
+            "snippet": "query = f\"SELECT {fieldnames} FROM {table_name};\""
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/plugin/apps.py",
+            "line": 39,
+            "cwe": "CWE-78",
+            "snippet": "allow_test=True, allow_plugins=True, allow_shell=True"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/plugin/registry.py",
+            "line": 274,
+            "cwe": "CWE-78",
+            "snippet": "allow_plugins=False, allow_shell=True, allow_test=True"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/plugin/test_plugin.py",
+            "line": 1133,
+            "cwe": "CWE-78",
+            "snippet": "'invalid$(name)',"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/plugin/base/event/events.py",
+            "line": 112,
+            "cwe": "CWE-78",
+            "snippet": "not canAppAccessDatabase(allow_shell=True)"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/InvenTree/cache.py",
+            "line": 78,
+            "cwe": "CWE-78",
+            "snippet": "allow_test=False, allow_plugins=False, allow_shell=True"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/InvenTree/tasks.py",
+            "line": 1047,
+            "cwe": "CWE-78",
+            "snippet": "if not canAppAccessDatabase(allow_test=True, allow_shell=True):"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/InvenTree/test_tasks.py",
+            "line": 160,
+            "cwe": "CWE-95",
+            "snippet": "The previous implementation fell back to eval(func) when getattr returned"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/common/settings.py",
+            "line": 67,
+            "cwe": "CWE-78",
+            "snippet": "if not canAppAccessDatabase(allow_shell=True, allow_test=True):"
+          },
+          {
+            "severity": "high",
+            "file": "docs/main.py",
+            "line": 260,
+            "cwe": "CWE-78",
+            "snippet": "assert subprocess.call(command, shell=True) == 0"
+          },
+          {
+            "severity": "high",
+            "file": "docs/docs/javascripts/splide.esm.js",
+            "line": 332,
+            "cwe": "CWE-120",
+            "snippet": "function sprintf(format, replacements) {"
+          },
+          {
+            "severity": "high",
+            "file": "docs/docs/javascripts/splide.js",
+            "line": 345,
+            "cwe": "CWE-120",
+            "snippet": "function sprintf(format, replacements) {"
+          },
+          {
+            "severity": "high",
+            "file": "docs/ci/check_mkdocs_config.py",
+            "line": 14,
+            "cwe": "CWE-502",
+            "snippet": "data = yaml.load(f, yaml.BaseLoader)"
+          },
+          {
+            "severity": "high",
+            "file": "contrib/packager.io/postinstall.sh",
+            "line": 6,
+            "cwe": "CWE-78",
+            "snippet": "echo \"# POI01| Running postinstall script - start - $(date)\""
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 57,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "src/frontend/tests/pui_modals.spec.ts",
+            "line": 160,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Test addition of new actions"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/tests/pui_settings.spec.ts",
+            "line": 12,
+            "cwe": "CWE-",
+            "snippet": "* TODO: Reimplement this - without logging out a cached user"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/src/tables/sales/SalesOrderAllocationTable.tsx",
+            "line": 346,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Hide if order is already shipped"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/src/tables/purchasing/PurchaseOrderLineItemTable.tsx",
+            "line": 133,
+            "cwe": "CWE-",
+            "snippet": "// Timeout is a small hack to prevent function being called before re-render"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/src/tables/part/PartCategoryTemplateTable.tsx",
+            "line": 79,
+            "cwe": "CWE-",
+            "snippet": "// TODO"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/src/pages/stock/StockDetail.tsx",
+            "line": 137,
+            "cwe": "CWE-",
+            "snippet": "globalSettings.isSet('TRANSFERORDER_ENABLED') // todo check if role is available"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/src/pages/stock/TransferOrderDetail.tsx",
+            "line": 121,
+            "cwe": "CWE-",
+            "snippet": "// TODO: add back the accordion if we need extra lines"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/src/pages/sales/SalesOrderDetail.tsx",
+            "line": 244,
+            "cwe": "CWE-",
+            "snippet": "// TODO @matmair - change API to include a \"locked\" attribute that we can check here"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/src/pages/purchasing/PurchaseOrderDetail.tsx",
+            "line": 220,
+            "cwe": "CWE-",
+            "snippet": "// TODO @matmair - change API to include a \"locked\" attribute that we can check here"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/src/components/wizards/OrderPartsWizard.tsx",
+            "line": 242,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Auto-fill with the desired quantity"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/src/components/render/Instance.tsx",
+            "line": 210,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Handle labels"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/src/components/nav/NavigationDrawer.tsx",
+            "line": 17,
+            "cwe": "CWE-",
+            "snippet": "// TODO @matmair #1: implement plugin loading and menu item generation see #5269"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/src/components/importer/ImporterColumnSelector.tsx",
+            "line": 125,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Error message?"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/src/components/importer/ImporterDrawer.tsx",
+            "line": 31,
+            "cwe": "CWE-",
+            "snippet": "/* TODO: Enhance this with:"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/src/components/forms/fields/ChoiceField.tsx",
+            "line": 33,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Allow provision of custom render function also"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/src/components/editors/TemplateEditor/TemplateEditor.tsx",
+            "line": 306,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Extract custom filters from template (make this more generic)"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/src/components/dashboard/DashboardWidgetLibrary.tsx",
+            "line": 62,
+            "cwe": "CWE-",
+            "snippet": "// TODO: 'recently updated stock'"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/lib/functions/Notification.tsx",
+            "line": 33,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Specific return code messages"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/users/api.py",
+            "line": 122,
+            "cwe": "CWE-",
+            "snippet": "A \"hack\" here is to post-process the queryset and simply"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/users/models.py",
+            "line": 80,
+            "cwe": "CWE-",
+            "snippet": "# legacy TODO @matmair remove in the next breaking"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/stock/test_api.py",
+            "line": 1013,
+            "cwe": "CWE-",
+            "snippet": "self.assertEqual(len(response), 28)  # TODO: adjust test dataset (belongs_to)"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/report/helpers.py",
+            "line": 99,
+            "cwe": "CWE-",
+            "snippet": "str -- Base64 encoded data URI e.g. 'data:image/png;base64,xxxxxxxxx', or an"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/report/templatetags/barcode.py",
+            "line": 31,
+            "cwe": "CWE-",
+            "snippet": "Returns a string ``data:image/FMT;base64,xxxxxxxxx`` which can be rendered to an <img> tag"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/plugin/staticfiles.py",
+            "line": 107,
+            "cwe": "CWE-",
+            "snippet": "'_XXXXXXX' collision-avoidance suffix instead, which is one of the ways the"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/plugin/test_api.py",
+            "line": 679,
+            "cwe": "CWE-",
+            "snippet": "# TODO: Work out why..."
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 45,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "tasks.py",
+            "line": 1390,
+            "cwe": "CWE-1188",
+            "snippet": "'rebuild_trees': 'Rebuild MPTT tree structures after import (default = True)',"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/users/api.py",
+            "line": 327,
+            "cwe": "CWE-1188",
+            "snippet": "'role_detail', description='Include role details', default=True"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/users/models.py",
+            "line": 748,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/users/migrations/0001_squashed_0015_alter_userprofile_type.py",
+            "line": 342,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/stock/api.py",
+            "line": 1112,
+            "cwe": "CWE-1188",
+            "snippet": "InvenTreeOutputOption('part_detail', default=True),"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/stock/models.py",
+            "line": 313,
+            "cwe": "CWE-1188",
+            "snippet": "cascade: If True, also look under sublocations (default = True)"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/stock/migrations/0001_initial.py",
+            "line": 31,
+            "cwe": "CWE-1188",
+            "snippet": "('delete_on_deplete', models.BooleanField(default=True, help_text='Delete this Stock Item when stock is depleted')),"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/stock/migrations/0059_auto_20210404_2016_squashed_0116_alter_stockitem_link.py",
+            "line": 41,
+            "cwe": "CWE-1188",
+            "snippet": "field=models.BooleanField(default=True, help_text='Delete this Stock Item when stock is depleted', verbose_name='Delete on deplete'),"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/report/models.py",
+            "line": 299,
+            "cwe": "CWE-1188",
+            "snippet": "default=True, verbose_name=_('Enabled'), help_text=_('Template is enabled')"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/report/templatetags/report.py",
+            "line": 405,
+            "cwe": "CWE-1188",
+            "snippet": "replace_missing: Optionally return a placeholder image if the provided filename does not exist (default = True)"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/report/migrations/0003_testreport_enabled.py",
+            "line": 16,
+            "cwe": "CWE-1188",
+            "snippet": "field=models.BooleanField(default=True, help_text='Report template is enabled', verbose_name='Enabled'),"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/report/migrations/0011_auto_20210212_2024.py",
+            "line": 22,
+            "cwe": "CWE-1188",
+            "snippet": "('enabled', models.BooleanField(default=True, help_text='Report template is enabled', verbose_name='Enabled')),"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/report/migrations/0012_buildreport.py",
+            "line": 22,
+            "cwe": "CWE-1188",
+            "snippet": "('enabled', models.BooleanField(default=True, help_text='Report template is enabled', verbose_name='Enabled')),"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/report/migrations/0014_purchaseorderreport_salesorderreport.py",
+            "line": 22,
+            "cwe": "CWE-1188",
+            "snippet": "('enabled', models.BooleanField(default=True, help_text='Report template is enabled', verbose_name='Enabled')),"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/report/migrations/0018_returnorderreport.py",
+            "line": 23,
+            "cwe": "CWE-1188",
+            "snippet": "('enabled', models.BooleanField(default=True, help_text='Report template is enabled', verbose_name='Enabled')),"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/report/migrations/0020_stocklocationreport.py",
+            "line": 24,
+            "cwe": "CWE-1188",
+            "snippet": "('enabled', models.BooleanField(default=True, help_text='Report template is enabled', verbose_name='Enabled')),"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/report/migrations/0022_reporttemplate.py",
+            "line": 30,
+            "cwe": "CWE-1188",
+            "snippet": "('enabled', models.BooleanField(default=True, help_text='Template is enabled', verbose_name='Enabled')),"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/report/migrations/0025_labeltemplate.py",
+            "line": 27,
+            "cwe": "CWE-1188",
+            "snippet": "('enabled', models.BooleanField(default=True, help_text='Template is enabled', verbose_name='Enabled')),"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/plugin/serializers.py",
+            "line": 235,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py",
+            "line": 30,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/plugin/builtin/exporter/parameter_exporter.py",
+            "line": 15,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py",
+            "line": 20,
+            "cwe": "CWE-1188",
+            "snippet": "default=True, label=_('Pricing Data'), help_text=_('Include part pricing data')"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/plugin/base/barcodes/serializers.py",
+            "line": 201,
+            "cwe": "CWE-1188",
+            "snippet": "default=True,"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/part/api.py",
+            "line": 1449,
+            "cwe": "CWE-1188",
+            "snippet": "InvenTreeOutputOption('can_build', default=True),"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/part/models.py",
+            "line": 1310,
+            "cwe": "CWE-1188",
+            "snippet": "default=True, verbose_name=_('Active'), help_text=_('Is this part active?')"
+          }
+        ]
+      },
+      "A06-VulnerableComponents": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/plugin/test_plugin.py",
+            "line": 1174,
+            "cwe": "CWE-1104",
+            "snippet": "update_plugins_file('inventree-brother-plugin==1.2.3')"
+          }
+        ]
+      },
+      "A07-AuthFailures": {
+        "count": 15,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "src/frontend/tests/pui_sso.spec.ts",
+            "line": 375,
+            "cwe": "CWE-798",
+            "snippet": "const password = 'Test-Password-1234!';"
+          },
+          {
+            "severity": "high",
+            "file": "src/frontend/lib/types/Auth.tsx",
+            "line": 22,
+            "cwe": "CWE-798",
+            "snippet": "ProviderToken = 'provider_token',"
+          },
+          {
+            "severity": "high",
+            "file": "src/frontend/lib/enums/ApiEndpoints.tsx",
+            "line": 14,
+            "cwe": "CWE-798",
+            "snippet": "user_set_password = 'user/:id/set-password/',"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/users/tests.py",
+            "line": 526,
+            "cwe": "CWE-798",
+            "snippet": "username='other_metadata_user', password='password'"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/users/test_migrations.py",
+            "line": 20,
+            "cwe": "CWE-798",
+            "snippet": "username='fred', email='fred@fred.com', password='password'"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/scim/tests.py",
+            "line": 180,
+            "cwe": "CWE-798",
+            "snippet": "new_user = User.objects.create_user(username='scim-user', password='test')"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/plugin/base/barcodes/test_barcode.py",
+            "line": 274,
+            "cwe": "CWE-798",
+            "snippet": "username='otheruser', password='otherpassword', email='other@testing.com'"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/InvenTree/tests.py",
+            "line": 1746,
+            "cwe": "CWE-798",
+            "snippet": "username='duplicate', email=self.user.email, password='password'"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/InvenTree/test_api.py",
+            "line": 910,
+            "cwe": "CWE-798",
+            "snippet": "username='metadata_victim', password='hunter2', email='victim@example.org'"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/InvenTree/test_tasks.py",
+            "line": 624,
+            "cwe": "CWE-798",
+            "snippet": "password='test-password',"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/InvenTree/test_views.py",
+            "line": 15,
+            "cwe": "CWE-798",
+            "snippet": "password = 'test_pass'"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/InvenTree/unit_test.py",
+            "line": 221,
+            "cwe": "CWE-798",
+            "snippet": "password = 'mypassword'"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/importer/tests.py",
+            "line": 725,
+            "cwe": "CWE-798",
+            "snippet": "username='other_accept', password='password'"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/common/tests.py",
+            "line": 611,
+            "cwe": "CWE-798",
+            "snippet": "username=f'User_{idx}', password='hunter42', email='email@dot.com'"
+          },
+          {
+            "severity": "high",
+            "file": "src/backend/InvenTree/common/test_notifications.py",
+            "line": 37,
+            "cwe": "CWE-798",
+            "snippet": "username='user_en', email='user.en@example.com', password='password123'"
+          }
+        ]
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 34,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "tasks.py",
+            "line": 1714,
+            "cwe": "CWE-319",
+            "snippet": "'address': 'Server address to check (default: http://localhost:8000)',"
+          },
+          {
+            "severity": "low",
+            "file": "src/performance/tests.py",
+            "line": 9,
+            "cwe": "CWE-319",
+            "snippet": "server = os.environ.get('INVENTREE_PYTHON_TEST_SERVER', 'http://127.0.0.1:12345')"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/playwright.config.ts",
+            "line": 29,
+            "cwe": "CWE-319",
+            "snippet": "process.env.PLAYWRIGHT_BASE_URL || 'http://localhost:5173';"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/vite.config.ts",
+            "line": 76,
+            "cwe": "CWE-319",
+            "snippet": "target: 'http://localhost:8000',"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/tests/defaults.ts",
+            "line": 4,
+            "cwe": "CWE-319",
+            "snippet": "export const apiUrl = 'http://localhost:8000/api/';"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/src/main.tsx",
+            "line": 75,
+            "cwe": "CWE-319",
+            "snippet": "host: 'http://localhost:8000',"
+          },
+          {
+            "severity": "low",
+            "file": "src/frontend/playwright/global-setup.ts",
+            "line": 28,
+            "cwe": "CWE-319",
+            "snippet": "const baseUrl = config.projects[0].use?.baseURL || 'http://localhost:5173';"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/scim/tests.py",
+            "line": 204,
+            "cwe": "CWE-319",
+            "snippet": "SITE_URL='http://testserver', CSRF_TRUSTED_ORIGINS=['http://testserver']"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/report/tests.py",
+            "line": 1309,
+            "cwe": "CWE-319",
+            "snippet": "'<img src=\"http://127.0.0.1/ssrf-probe\">'"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/report/test_tags.py",
+            "line": 319,
+            "cwe": "CWE-319",
+            "snippet": "f'<a href=\"http://localhost:8000/web/part/{obj.pk}\">test</a>',"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/report/templatetags/barcode.py",
+            "line": 57,
+            "cwe": "CWE-319",
+            "snippet": "f'<svg xmlns=\"http://www.w3.org/2000/svg\" '"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/plugin/test_api.py",
+            "line": 252,
+            "cwe": "CWE-319",
+            "snippet": "SITE_URL='http://testserver', CSRF_TRUSTED_ORIGINS=['http://testserver']"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/plugin/samples/integration/test_sample.py",
+            "line": 14,
+            "cwe": "CWE-319",
+            "snippet": "SITE_URL='http://testserver', CSRF_TRUSTED_ORIGINS=['http://testserver']"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/plugin/builtin/integration/test_core_wellknown.py",
+            "line": 20,
+            "cwe": "CWE-319",
+            "snippet": "SITE_URL='http://testserver', CSRF_TRUSTED_ORIGINS=['http://testserver']"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/part/test_api.py",
+            "line": 2461,
+            "cwe": "CWE-319",
+            "snippet": "[A link](http://link.com.go)"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/order/test_api.py",
+            "line": 3177,
+            "cwe": "CWE-319",
+            "snippet": "'link': 'http://test.com/link.html',"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/InvenTree/apps.py",
+            "line": 373,
+            "cwe": "CWE-319",
+            "snippet": "redirect_uris=[f'{settings.SITE_URL}/oidc/callback/', 'http://localhost'],"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/InvenTree/serializers.py",
+            "line": 897,
+            "cwe": "CWE-319",
+            "snippet": "http://127.0.0.1:8000/media/foo/bar.jpg"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/InvenTree/settings.py",
+            "line": 243,
+            "cwe": "CWE-319",
+            "snippet": "'INVENTREE_PLUGIN_DEV_HOST', 'plugin_dev.host', 'http://localhost:5174'"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/InvenTree/tests.py",
+            "line": 178,
+            "cwe": "CWE-319",
+            "snippet": "response = self.preflight('/api/', origin='http://random-external-server.com')"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/InvenTree/test_api.py",
+            "line": 98,
+            "cwe": "CWE-319",
+            "snippet": "SITE_URL='http://testserver', CSRF_TRUSTED_ORIGINS=['http://testserver']"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/InvenTree/test_middleware.py",
+            "line": 156,
+            "cwe": "CWE-319",
+            "snippet": "SITE_URL='http://testserver', CSRF_TRUSTED_ORIGINS=['http://testserver']"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/InvenTree/test_serializers.py",
+            "line": 190,
+            "cwe": "CWE-319",
+            "snippet": "CSRF_TRUSTED_ORIGINS=['http://testserver'],"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/InvenTree/test_tracing.py",
+            "line": 82,
+            "cwe": "CWE-319",
+            "snippet": "kwargs.setdefault('endpoint', 'http://localhost:4317')"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/InvenTree/test_views.py",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "SITE_URL='http://testserver', CSRF_TRUSTED_ORIGINS=['http://testserver']"
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 6,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/users/test_api.py",
+            "line": 238,
+            "cwe": "CWE-601",
+            "snippet": "def test_login_redirect(self):"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/report/fetcher.py",
+            "line": 34,
+            "cwe": "CWE-918",
+            "snippet": "return super().fetch(url, headers)"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/report/tests.py",
+            "line": 1427,
+            "cwe": "CWE-918",
+            "snippet": "self.fetcher.fetch(url)"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/plugin/builtin/integration/core_wellknown.py",
+            "line": 70,
+            "cwe": "CWE-601",
+            "snippet": "return redirect("
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/InvenTree/middleware.py",
+            "line": 206,
+            "cwe": "CWE-601",
+            "snippet": "return redirect(str(reverse_lazy('account_login')))"
+          },
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/InvenTree/test_views.py",
+            "line": 30,
+            "cwe": "CWE-601",
+            "snippet": "def test_index_redirect(self):"
+          }
+        ]
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 23,
+    "files_with_findings": 23,
+    "severity": {
+      "high": 0,
+      "medium": 22,
+      "low": 1
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 21,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "src/frontend/src/tables/stock/StockItemTestResultTable.tsx",
+            "line": 378,
+            "cwe": "CWE-1336",
+            "snippet": "setSelectedTemplate(record.templateId);"
+          },
+          {
+            "severity": "medium",
+            "file": "src/frontend/src/tables/settings/TemplateTable.tsx",
+            "line": 315,
+            "cwe": "CWE-1336",
+            "snippet": "setSelectedTemplate(record.pk);"
+          },
+          {
+            "severity": "medium",
+            "file": "src/frontend/src/tables/part/PartCategoryTemplateTable.tsx",
+            "line": 132,
+            "cwe": "CWE-1336",
+            "snippet": "setSelectedTemplate(record.pk);"
+          },
+          {
+            "severity": "medium",
+            "file": "src/frontend/src/tables/part/PartTestResultTable.tsx",
+            "line": 194,
+            "cwe": "CWE-1336",
+            "snippet": "setSelectedTemplate(template.pk);"
+          },
+          {
+            "severity": "medium",
+            "file": "src/frontend/src/tables/general/ParameterTemplateTable.tsx",
+            "line": 96,
+            "cwe": "CWE-1336",
+            "snippet": "setSelectedTemplate(record);"
+          },
+          {
+            "severity": "medium",
+            "file": "src/frontend/src/tables/general/ParametricDataTable.tsx",
+            "line": 436,
+            "cwe": "CWE-1336",
+            "snippet": "setSelectedTemplate(template);"
+          },
+          {
+            "severity": "medium",
+            "file": "src/frontend/src/forms/CommonForms.tsx",
+            "line": 383,
+            "cwe": "CWE-1336",
+            "snippet": "onValueChange: (value: any) => fetchTemplate(value),"
+          },
+          {
+            "severity": "medium",
+            "file": "src/frontend/src/components/render/Generic.tsx",
+            "line": 6,
+            "cwe": "CWE-1336",
+            "snippet": "export function RenderParameterTemplate({"
+          },
+          {
+            "severity": "medium",
+            "file": "src/frontend/src/components/render/Note.tsx",
+            "line": 5,
+            "cwe": "CWE-1336",
+            "snippet": "export function RenderNoteTemplate({"
+          },
+          {
+            "severity": "medium",
+            "file": "src/frontend/src/components/render/Part.tsx",
+            "line": 143,
+            "cwe": "CWE-1336",
+            "snippet": "export function RenderPartTestTemplate({"
+          },
+          {
+            "severity": "medium",
+            "file": "src/frontend/src/components/render/Report.tsx",
+            "line": 5,
+            "cwe": "CWE-1336",
+            "snippet": "export function RenderReportTemplate({"
+          },
+          {
+            "severity": "medium",
+            "file": "src/frontend/src/components/editors/TemplateEditor/TemplateEditor.tsx",
+            "line": 385,
+            "cwe": "CWE-1336",
+            "snippet": "onClick={() => saveTemplate()}"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/stock/generators.py",
+            "line": 78,
+            "cwe": "CWE-1336",
+            "snippet": "return Template(batch_template).render(Context(context))"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/report/models.py",
+            "line": 251,
+            "cwe": "CWE-1336",
+            "snippet": "template_string = Template(self.filename_pattern)"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/report/test_tags.py",
+            "line": 40,
+            "cwe": "CWE-1336",
+            "snippet": "template = Template("
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/plugin/samples/supplier/test_supplier_sample.py",
+            "line": 133,
+            "cwe": "CWE-1336",
+            "snippet": "p_len = ParameterTemplate(name='Length', units='mm')"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/part/models.py",
+            "line": 352,
+            "cwe": "CWE-1336",
+            "snippet": "class PartCategoryParameterTemplate(InvenTree.models.InvenTreeMetadataModel):"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/part/test_param.py",
+            "line": 48,
+            "cwe": "CWE-1336",
+            "snippet": "t1 = ParameterTemplate(name='abcde', units='dd')"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/part/test_part.py",
+            "line": 716,
+            "cwe": "CWE-1336",
+            "snippet": "template = PartTestTemplate(part=variant, test_name=name)"
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/common/models.py",
+            "line": 2620,
+            "cwe": "CWE-1336",
+            "snippet": "class ParameterTemplate("
+          },
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/common/test_api.py",
+            "line": 1017,
+            "cwe": "CWE-1336",
+            "snippet": "common.models.ParameterTemplate("
+          }
+        ]
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "src/backend/InvenTree/common/api.py",
+            "line": 136,
+            "cwe": "CWE-20",
+            "snippet": "payload = json.loads(request.body)"
+          }
+        ]
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "src/backend/InvenTree/scim/tests.py",
+            "line": 37,
+            "cwe": "CWE-",
+            "snippet": "self.assertTrue(config.verify_secret(secret))"
+          }
+        ]
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:e0863211-110a-5277-a271-9a7e110c6fc0",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-06T07:17:43Z",
+      "component": {
+        "type": "application",
+        "name": "INVENTREE",
+        "version": "9478c25a7069",
+        "bom-ref": "pkg:generic/anticloud/INVENTREE@9478c25a7069",
+        "purl": "pkg:generic/anticloud/INVENTREE@9478c25a7069",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "9478c25a70696feddafbff139e6f41d3b0abe78d"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/inventree/InvenTree"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@codemirror/autocomplete",
+        "version": "^6.20.1",
+        "purl": "pkg:npm/@codemirror/autocomplete@^6.20.1",
+        "bom-ref": "npm/@codemirror/autocomplete@^6.20.1"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/lang-liquid",
+        "version": "^6.3.2",
+        "purl": "pkg:npm/@codemirror/lang-liquid@^6.3.2",
+        "bom-ref": "npm/@codemirror/lang-liquid@^6.3.2"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/language",
+        "version": "^6.12.2",
+        "purl": "pkg:npm/@codemirror/language@^6.12.2",
+        "bom-ref": "npm/@codemirror/language@^6.12.2"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/lint",
+        "version": "^6.9.5",
+        "purl": "pkg:npm/@codemirror/lint@^6.9.5",
+        "bom-ref": "npm/@codemirror/lint@^6.9.5"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/search",
+        "version": "^6.6.0",
+        "purl": "pkg:npm/@codemirror/search@^6.6.0",
+        "bom-ref": "npm/@codemirror/search@^6.6.0"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/state",
+        "version": "^6.6.0",
+        "purl": "pkg:npm/@codemirror/state@^6.6.0",
+        "bom-ref": "npm/@codemirror/state@^6.6.0"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/theme-one-dark",
+        "version": "^6.1.3",
+        "purl": "pkg:npm/@codemirror/theme-one-dark@^6.1.3",
+        "bom-ref": "npm/@codemirror/theme-one-dark@^6.1.3"
+      },
+      {
+        "type": "library",
+        "name": "@codemirror/view",
+        "version": "^6.40.0",
+        "purl": "pkg:npm/@codemirror/view@^6.40.0",
+        "bom-ref": "npm/@codemirror/view@^6.40.0"
+      },
+      {
+        "type": "library",
+        "name": "@floating-ui/dom",
+        "version": "^1.0.0",
+        "purl": "pkg:npm/@floating-ui/dom@^1.0.0",
+        "bom-ref": "npm/@floating-ui/dom@^1.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@emotion/react",
+        "version": "^11.14.0",
+        "purl": "pkg:npm/@emotion/react@^11.14.0",
+        "bom-ref": "npm/@emotion/react@^11.14.0"
+      },
+      {
+        "type": "library",
+        "name": "@fortawesome/fontawesome-svg-core",
+        "version": "^7.2.0",
+        "purl": "pkg:npm/@fortawesome/fontawesome-svg-core@^7.2.0",
+        "bom-ref": "npm/@fortawesome/fontawesome-svg-core@^7.2.0"
+      },
+      {
+        "type": "library",
+        "name": "@fortawesome/free-regular-svg-icons",
+        "version": "^7.2.0",
+        "purl": "pkg:npm/@fortawesome/free-regular-svg-icons@^7.2.0",
+        "bom-ref": "npm/@fortawesome/free-regular-svg-icons@^7.2.0"
+      },
+      {
+        "type": "library",
+        "name": "@fortawesome/free-solid-svg-icons",
+        "version": "^7.2.0",
+        "purl": "pkg:npm/@fortawesome/free-solid-svg-icons@^7.2.0",
+        "bom-ref": "npm/@fortawesome/free-solid-svg-icons@^7.2.0"
+      },
+      {
+        "type": "library",
+        "name": "@fortawesome/react-fontawesome",
+        "version": "^3.3.1",
+        "purl": "pkg:npm/@fortawesome/react-fontawesome@^3.3.1",
+        "bom-ref": "npm/@fortawesome/react-fontawesome@^3.3.1"
+      },
+      {
+        "type": "library",
+        "name": "@fullcalendar/core",
+        "version": "^6.1.21",
+        "purl": "pkg:npm/@fullcalendar/core@^6.1.21",
+        "bom-ref": "npm/@fullcalendar/core@^6.1.21"
+      },
+      {
+        "type": "library",
+        "name": "@fullcalendar/daygrid",
+        "version": "^6.1.21",
+        "purl": "pkg:npm/@fullcalendar/daygrid@^6.1.21",
+        "bom-ref": "npm/@fullcalendar/daygrid@^6.1.21"
+      },
+      {
+        "type": "library",
+        "name": "@fullcalendar/interaction",
+        "version": "^6.1.21",
+        "purl": "pkg:npm/@fullcalendar/interaction@^6.1.21",
+        "bom-ref": "npm/@fullcalendar/interaction@^6.1.21"
+      },
+      {
+        "type": "library",
+        "name": "@fullcalendar/react",
+        "version": "6.1.21",
+        "purl": "pkg:npm/@fullcalendar/react@6.1.21",
+        "bom-ref": "npm/@fullcalendar/react@6.1.21"
+      },
+      {
+        "type": "library",
+        "name": "@lingui/core",
+        "version": "^5.9.2",
+        "purl": "pkg:npm/@lingui/core@^5.9.2",
+        "bom-ref": "npm/@lingui/core@^5.9.2"
+      },
+      {
+        "type": "library",
+        "name": "@lingui/react",
+        "version": "^5.9.2",
+        "purl": "pkg:npm/@lingui/react@^5.9.2",
+        "bom-ref": "npm/@lingui/react@^5.9.2"
+      },
+      {
+        "type": "library",
+        "name": "@mantine/carousel",
+        "version": "^9.2.1",
+        "purl": "pkg:npm/@mantine/carousel@^9.2.1",
+        "bom-ref": "npm/@mantine/carousel@^9.2.1"
+      },
+      {
+        "type": "library",
+        "name": "@mantine/charts",
+        "version": "^9.2.1",
+        "purl": "pkg:npm/@mantine/charts@^9.2.1",
+        "bom-ref": "npm/@mantine/charts@^9.2.1"
+      },
+      {
+        "type": "library",
+        "name": "@mantine/core",
+        "version": "^9.2.1",
+        "purl": "pkg:npm/@mantine/core@^9.2.1",
+        "bom-ref": "npm/@mantine/core@^9.2.1"
+      },
+      {
+        "type": "library",
+        "name": "@mantine/dates",
+        "version": "^9.2.1",
+        "purl": "pkg:npm/@mantine/dates@^9.2.1",
+        "bom-ref": "npm/@mantine/dates@^9.2.1"
+      },
+      {
+        "type": "library",
+        "name": "@mantine/dropzone",
+        "version": "^9.2.1",
+        "purl": "pkg:npm/@mantine/dropzone@^9.2.1",
+        "bom-ref": "npm/@mantine/dropzone@^9.2.1"
+      },
+      {
+        "type": "library",
+        "name": "@mantine/form",
+        "version": "^9.2.1",
+        "purl": "pkg:npm/@mantine/form@^9.2.1",
+        "bom-ref": "npm/@mantine/form@^9.2.1"
+      },
+      {
+        "type": "library",
+        "name": "@mantine/hooks",
+        "version": "^9.2.1",
+        "purl": "pkg:npm/@mantine/hooks@^9.2.1",
+        "bom-ref": "npm/@mantine/hooks@^9.2.1"
+      },
+      {
+        "type": "library",
+        "name": "@mantine/modals",
+        "version": "^9.2.1",
+        "purl": "pkg:npm/@mantine/modals@^9.2.1",
+        "bom-ref": "npm/@mantine/modals@^9.2.1"
+      },
+      {
+        "type": "library",
+        "name": "@mantine/notifications",
+        "version": "^9.2.1",
+        "purl": "pkg:npm/@mantine/notifications@^9.2.1",
+        "bom-ref": "npm/@mantine/notifications@^9.2.1"
+      },
+      {
+        "type": "library",
+        "name": "@mantine/spotlight",
+        "version": "^9.2.1",
+        "purl": "pkg:npm/@mantine/spotlight@^9.2.1",
+        "bom-ref": "npm/@mantine/spotlight@^9.2.1"
+      },
+      {
+        "type": "library",
+        "name": "@mantine/tiptap",
+        "version": "^9.2.1",
+        "purl": "pkg:npm/@mantine/tiptap@^9.2.1",
+        "bom-ref": "npm/@mantine/tiptap@^9.2.1"
+      },
+      {
+        "type": "library",
+        "name": "@mantine/utils",
+        "version": "^6.0.22",
+        "purl": "pkg:npm/@mantine/utils@^6.0.22",
+        "bom-ref": "npm/@mantine/utils@^6.0.22"
+      },
+      {
+        "type": "library",
+        "name": "@mantine/vanilla-extract",
+        "version": "^9.2.1",
+        "purl": "pkg:npm/@mantine/vanilla-extract@^9.2.1",
+        "bom-ref": "npm/@mantine/vanilla-extract@^9.2.1"
+      },
+      {
+        "type": "library",
+        "name": "@messageformat/date-skeleton",
+        "version": "^1.1.0",
+        "purl": "pkg:npm/@messageformat/date-skeleton@^1.1.0",
+        "bom-ref": "npm/@messageformat/date-skeleton@^1.1.0"
+      },
+      {
+        "type": "library",
+        "name": "@sentry/react",
+        "version": "^10.57.0",
+        "purl": "pkg:npm/@sentry/react@^10.57.0",
+        "bom-ref": "npm/@sentry/react@^10.57.0"
+      },
+      {
+        "type": "library",
+        "name": "@tabler/icons-react",
+        "version": "^3.44.0",
+        "purl": "pkg:npm/@tabler/icons-react@^3.44.0",
+        "bom-ref": "npm/@tabler/icons-react@^3.44.0"
+      },
+      {
+        "type": "library",
+        "name": "@tanstack/react-query",
+        "version": "^5.101.0",
+        "purl": "pkg:npm/@tanstack/react-query@^5.101.0",
+        "bom-ref": "npm/@tanstack/react-query@^5.101.0"
+      },
+      {
+        "type": "library",
+        "name": "@tiptap/core",
+        "version": "^3.23.6",
+        "purl": "pkg:npm/@tiptap/core@^3.23.6",
+        "bom-ref": "npm/@tiptap/core@^3.23.6"
+      },
+      {
+        "type": "library",
+        "name": "@tiptap/extension-image",
+        "version": "^3.23.6",
+        "purl": "pkg:npm/@tiptap/extension-image@^3.23.6",
+        "bom-ref": "npm/@tiptap/extension-image@^3.23.6"
+      },
+      {
+        "type": "library",
+        "name": "@tiptap/extension-link",
+        "version": "^3.23.6",
+        "purl": "pkg:npm/@tiptap/extension-link@^3.23.6",
+        "bom-ref": "npm/@tiptap/extension-link@^3.23.6"
+      },
+      {
+        "type": "library",
+        "name": "@tiptap/extension-table",
+        "version": "^3.23.6",
+        "purl": "pkg:npm/@tiptap/extension-table@^3.23.6",
+        "bom-ref": "npm/@tiptap/extension-table@^3.23.6"
+      },
+      {
+        "type": "library",
+        "name": "@tiptap/pm",
+        "version": "^3.23.6",
+        "purl": "pkg:npm/@tiptap/pm@^3.23.6",
+        "bom-ref": "npm/@tiptap/pm@^3.23.6"
+      },
+      {
+        "type": "library",
+        "name": "@tiptap/react",
+        "version": "^3.23.6",
+        "purl": "pkg:npm/@tiptap/react@^3.23.6",
+        "bom-ref": "npm/@tiptap/react@^3.23.6"
+      },
+      {
+        "type": "library",
+        "name": "@tiptap/starter-kit",
+        "version": "^3.23.6",
+        "purl": "pkg:npm/@tiptap/starter-kit@^3.23.6",
+        "bom-ref": "npm/@tiptap/starter-kit@^3.23.6"
+      },
+      {
+        "type": "library",
+        "name": "@uiw/codemirror-theme-vscode",
+        "version": "^4.25.8",
+        "purl": "pkg:npm/@uiw/codemirror-theme-vscode@^4.25.8",
+        "bom-ref": "npm/@uiw/codemirror-theme-vscode@^4.25.8"
+      },
+      {
+        "type": "library",
+        "name": "@uiw/react-codemirror",
+        "version": "^4.25.8",
+        "purl": "pkg:npm/@uiw/react-codemirror@^4.25.8",
+        "bom-ref": "npm/@uiw/react-codemirror@^4.25.8"
+      },
+      {
+        "type": "library",
+        "name": "@uiw/react-split",
+        "version": "^5.9.4",
+        "purl": "pkg:npm/@uiw/react-split@^5.9.4",
+        "bom-ref": "npm/@uiw/react-split@^5.9.4"
+      },
+      {
+        "type": "library",
+        "name": "@vanilla-extract/css",
+        "version": "^1.20.1",
+        "purl": "pkg:npm/@vanilla-extract/css@^1.20.1",
+        "bom-ref": "npm/@vanilla-extract/css@^1.20.1"
+      },
+      {
+        "type": "library",
+        "name": "axios",
+        "version": "^1.17.0",
+        "purl": "pkg:npm/axios@^1.17.0",
+        "bom-ref": "npm/axios@^1.17.0"
+      },
+      {
+        "type": "library",
+        "name": "clsx",
+        "version": "^2.1.1",
+        "purl": "pkg:npm/clsx@^2.1.1",
+        "bom-ref": "npm/clsx@^2.1.1"
+      },
+      {
+        "type": "library",
+        "name": "codemirror",
+        "version": "^6.0.2",
+        "purl": "pkg:npm/codemirror@^6.0.2",
+        "bom-ref": "npm/codemirror@^6.0.2"
+      },
+      {
+        "type": "library",
+        "name": "dayjs",
+        "version": "^1.11.21",
+        "purl": "pkg:npm/dayjs@^1.11.21",
+        "bom-ref": "npm/dayjs@^1.11.21"
+      },
+      {
+        "type": "library",
+        "name": "dompurify",
+        "version": "^3.4.8",
+        "purl": "pkg:npm/dompurify@^3.4.8",
+        "bom-ref": "npm/dompurify@^3.4.8"
+      },
+      {
+        "type": "library",
+        "name": "embla-carousel",
+        "version": "^8.6.0",
+        "purl": "pkg:npm/embla-carousel@^8.6.0",
+        "bom-ref": "npm/embla-carousel@^8.6.0"
+      },
+      {
+        "type": "library",
+        "name": "embla-carousel-react",
+        "version": "^8.6.0",
+        "purl": "pkg:npm/embla-carousel-react@^8.6.0",
+        "bom-ref": "npm/embla-carousel-react@^8.6.0"
+      },
+      {
+        "type": "library",
+        "name": "fuse.js",
+        "version": "^7.4.2",
+        "purl": "pkg:npm/fuse.js@^7.4.2",
+        "bom-ref": "npm/fuse.js@^7.4.2"
+      },
+      {
+        "type": "library",
+        "name": "html5-qrcode",
+        "version": "^2.3.8",
+        "purl": "pkg:npm/html5-qrcode@^2.3.8",
+        "bom-ref": "npm/html5-qrcode@^2.3.8"
+      },
+      {
+        "type": "library",
+        "name": "mantine-contextmenu",
+        "version": "^9.2.1",
+        "purl": "pkg:npm/mantine-contextmenu@^9.2.1",
+        "bom-ref": "npm/mantine-contextmenu@^9.2.1"
+      },
+      {
+        "type": "library",
+        "name": "mantine-datatable",
+        "version": "^9.2.2",
+        "purl": "pkg:npm/mantine-datatable@^9.2.2",
+        "bom-ref": "npm/mantine-datatable@^9.2.2"
+      },
+      {
+        "type": "library",
+        "name": "qrcode",
+        "version": "^1.5.4",
+        "purl": "pkg:npm/qrcode@^1.5.4",
+        "bom-ref": "npm/qrcode@^1.5.4"
+      },
+      {
+        "type": "library",
+        "name": "react",
+        "version": "^19.2.7",
+        "purl": "pkg:npm/react@^19.2.7",
+        "bom-ref": "npm/react@^19.2.7"
+      },
+      {
+        "type": "library",
+        "name": "react-dom",
+        "version": "^19.2.7",
+        "purl": "pkg:npm/react-dom@^19.2.7",
+        "bom-ref": "npm/react-dom@^19.2.7"
+      },
+      {
+        "type": "library",
+        "name": "react-grid-layout",
+        "version": "1.4.4",
+        "purl": "pkg:npm/react-grid-layout@1.4.4",
+        "bom-ref": "npm/react-grid-layout@1.4.4"
+      },
+      {
+        "type": "library",
+        "name": "react-hook-form",
+        "version": "^7.78.0",
+        "purl": "pkg:npm/react-hook-form@^7.78.0",
+        "bom-ref": "npm/react-hook-form@^7.78.0"
+      },
+      {
+        "type": "library",
+        "name": "react-is",
+        "version": "^19.2.7",
+        "purl": "pkg:npm/react-is@^19.2.7",
+        "bom-ref": "npm/react-is@^19.2.7"
+      },
+      {
+        "type": "library",
+        "name": "react-router-dom",
+        "version": "^6.30.4",
+        "purl": "pkg:npm/react-router-dom@^6.30.4",
+        "bom-ref": "npm/react-router-dom@^6.30.4"
+      },
+      {
+        "type": "library",
+        "name": "react-select",
+        "version": "^5.10.2",
+        "purl": "pkg:npm/react-select@^5.10.2",
+        "bom-ref": "npm/react-select@^5.10.2"
+      },
+      {
+        "type": "library",
+        "name": "react-window",
+        "version": "1.8.11",
+        "purl": "pkg:npm/react-window@1.8.11",
+        "bom-ref": "npm/react-window@1.8.11"
+      },
+      {
+        "type": "library",
+        "name": "recharts",
+        "version": "^3.8.1",
+        "purl": "pkg:npm/recharts@^3.8.1",
+        "bom-ref": "npm/recharts@^3.8.1"
+      },
+      {
+        "type": "library",
+        "name": "styled-components",
+        "version": "^6.4.2",
+        "purl": "pkg:npm/styled-components@^6.4.2",
+        "bom-ref": "npm/styled-components@^6.4.2"
+      },
+      {
+        "type": "library",
+        "name": "tiptap-extension-resizable-image",
+        "version": "^2.1.0",
+        "purl": "pkg:npm/tiptap-extension-resizable-image@^2.1.0",
+        "bom-ref": "npm/tiptap-extension-resizable-image@^2.1.0"
+      },
+      {
+        "type": "library",
+        "name": "undici",
+        "version": "^8.4.1",
+        "purl": "pkg:npm/undici@^8.4.1",
+        "bom-ref": "npm/undici@^8.4.1"
+      },
+      {
+        "type": "library",
+        "name": "zustand",
+        "version": "^5.0.14",
+        "purl": "pkg:npm/zustand@^5.0.14",
+        "bom-ref": "npm/zustand@^5.0.14"
+      },
+      {
+        "type": "library",
+        "name": "@babel/core",
+        "version": "^8.0.1",
+        "purl": "pkg:npm/@babel/core@^8.0.1",
+        "bom-ref": "npm/@babel/core@^8.0.1"
+      },
+      {
+        "type": "library",
+        "name": "@babel/preset-react",
+        "version": "^8.0.1",
+        "purl": "pkg:npm/@babel/preset-react@^8.0.1",
+        "bom-ref": "npm/@babel/preset-react@^8.0.1"
+      },
+      {
+        "type": "library",
+        "name": "@babel/preset-typescript",
+        "version": "^8.0.1",
+        "purl": "pkg:npm/@babel/preset-typescript@^8.0.1",
+        "bom-ref": "npm/@babel/preset-typescript@^8.0.1"
+      },
+      {
+        "type": "library",
+        "name": "@babel/runtime",
+        "version": "^8.0.0",
+        "purl": "pkg:npm/@babel/runtime@^8.0.0",
+        "bom-ref": "npm/@babel/runtime@^8.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@codecov/vite-plugin",
+        "version": "^2.0.1",
+        "purl": "pkg:npm/@codecov/vite-plugin@^2.0.1",
+        "bom-ref": "npm/@codecov/vite-plugin@^2.0.1"
+      },
+      {
+        "type": "library",
+        "name": "@flakiness/playwright",
+        "version": "^2.0.0",
+        "purl": "pkg:npm/@flakiness/playwright@^2.0.0",
+        "bom-ref": "npm/@flakiness/playwright@^2.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@lingui/babel-plugin-lingui-macro",
+        "version": "^5.9.5",
+        "purl": "pkg:npm/@lingui/babel-plugin-lingui-macro@^5.9.5",
+        "bom-ref": "npm/@lingui/babel-plugin-lingui-macro@^5.9.5"
+      },
+      {
+        "type": "library",
+        "name": "@lingui/cli",
+        "version": "^5.9.5",
+        "purl": "pkg:npm/@lingui/cli@^5.9.5",
+        "bom-ref": "npm/@lingui/cli@^5.9.5"
+      },
+      {
+        "type": "library",
+        "name": "@lingui/macro",
+        "version": "^5.9.5",
+        "purl": "pkg:npm/@lingui/macro@^5.9.5",
+        "bom-ref": "npm/@lingui/macro@^5.9.5"
+      },
+      {
+        "type": "library",
+        "name": "@playwright/test",
+        "version": "^1.60.0",
+        "purl": "pkg:npm/@playwright/test@^1.60.0",
+        "bom-ref": "npm/@playwright/test@^1.60.0"
+      },
+      {
+        "type": "library",
+        "name": "@types/node",
+        "version": "^26.0.1",
+        "purl": "pkg:npm/@types/node@^26.0.1",
+        "bom-ref": "npm/@types/node@^26.0.1"
+      },
+      {
+        "type": "library",
+        "name": "@types/qrcode",
+        "version": "^1.5.6",
+        "purl": "pkg:npm/@types/qrcode@^1.5.6",
+        "bom-ref": "npm/@types/qrcode@^1.5.6"
+      },
+      {
+        "type": "library",
+        "name": "@types/react",
+        "version": "^19.2.17",
+        "purl": "pkg:npm/@types/react@^19.2.17",
+        "bom-ref": "npm/@types/react@^19.2.17"
+      },
+      {
+        "type": "library",
+        "name": "@types/react-dom",
+        "version": "^19.2.3",
+        "purl": "pkg:npm/@types/react-dom@^19.2.3",
+        "bom-ref": "npm/@types/react-dom@^19.2.3"
+      },
+      {
+        "type": "library",
+        "name": "@types/react-grid-layout",
+        "version": "^1.3.5",
+        "purl": "pkg:npm/@types/react-grid-layout@^1.3.5",
+        "bom-ref": "npm/@types/react-grid-layout@^1.3.5"
+      },
+      {
+        "type": "library",
+        "name": "@types/react-router-dom",
+        "version": "^5.3.3",
+        "purl": "pkg:npm/@types/react-router-dom@^5.3.3",
+        "bom-ref": "npm/@types/react-router-dom@^5.3.3"
+      },
+      {
+        "type": "library",
+        "name": "@types/react-window",
+        "version": "^1.8.8",
+        "purl": "pkg:npm/@types/react-window@^1.8.8",
+        "bom-ref": "npm/@types/react-window@^1.8.8"
+      },
+      {
+        "type": "library",
+        "name": "@vanilla-extract/vite-plugin",
+        "version": "^5.2.2",
+        "purl": "pkg:npm/@vanilla-extract/vite-plugin@^5.2.2",
+        "bom-ref": "npm/@vanilla-extract/vite-plugin@^5.2.2"
+      },
+      {
+        "type": "library",
+        "name": "@vitejs/plugin-react",
+        "version": "^5",
+        "purl": "pkg:npm/@vitejs/plugin-react@^5",
+        "bom-ref": "npm/@vitejs/plugin-react@^5"
+      },
+      {
+        "type": "library",
+        "name": "babel-plugin-macros",
+        "version": "^3.1.0",
+        "purl": "pkg:npm/babel-plugin-macros@^3.1.0",
+        "bom-ref": "npm/babel-plugin-macros@^3.1.0"
+      },
+      {
+        "type": "library",
+        "name": "nyc",
+        "version": "^18.0.0",
+        "purl": "pkg:npm/nyc@^18.0.0",
+        "bom-ref": "npm/nyc@^18.0.0"
+      },
+      {
+        "type": "library",
+        "name": "oauth2-mock-server",
+        "version": "^9.1.0",
+        "purl": "pkg:npm/oauth2-mock-server@^9.1.0",
+        "bom-ref": "npm/oauth2-mock-server@^9.1.0"
+      },
+      {
+        "type": "library",
+        "name": "otpauth",
+        "version": "^9.5.1",
+        "purl": "pkg:npm/otpauth@^9.5.1",
+        "bom-ref": "npm/otpauth@^9.5.1"
+      },
+      {
+        "type": "library",
+        "name": "path",
+        "version": "^0.12.7",
+        "purl": "pkg:npm/path@^0.12.7",
+        "bom-ref": "npm/path@^0.12.7"
+      },
+      {
+        "type": "library",
+        "name": "rollup",
+        "version": "^4.61.1",
+        "purl": "pkg:npm/rollup@^4.61.1",
+        "bom-ref": "npm/rollup@^4.61.1"
+      },
+      {
+        "type": "library",
+        "name": "rollup-plugin-license",
+        "version": "^3.7.1",
+        "purl": "pkg:npm/rollup-plugin-license@^3.7.1",
+        "bom-ref": "npm/rollup-plugin-license@^3.7.1"
+      },
+      {
+        "type": "library",
+        "name": "typescript",
+        "version": "^6",
+        "purl": "pkg:npm/typescript@^6",
+        "bom-ref": "npm/typescript@^6"
+      },
+      {
+        "type": "library",
+        "name": "vite",
+        "version": "^7.0.0",
+        "purl": "pkg:npm/vite@^7.0.0",
+        "bom-ref": "npm/vite@^7.0.0"
+      },
+      {
+        "type": "library",
+        "name": "vite-plugin-babel-macros",
+        "version": "^1.0.6",
+        "purl": "pkg:npm/vite-plugin-babel-macros@^1.0.6",
+        "bom-ref": "npm/vite-plugin-babel-macros@^1.0.6"
+      },
+      {
+        "type": "library",
+        "name": "vite-plugin-dts",
+        "version": "^5.0.2",
+        "purl": "pkg:npm/vite-plugin-dts@^5.0.2",
+        "bom-ref": "npm/vite-plugin-dts@^5.0.2"
+      },
+      {
+        "type": "library",
+        "name": "vite-plugin-externals",
+        "version": "^0.6.2",
+        "purl": "pkg:npm/vite-plugin-externals@^0.6.2",
+        "bom-ref": "npm/vite-plugin-externals@^0.6.2"
+      },
+      {
+        "type": "library",
+        "name": "vite-plugin-istanbul",
+        "version": "^9.0.1",
+        "purl": "pkg:npm/vite-plugin-istanbul@^9.0.1",
+        "bom-ref": "npm/vite-plugin-istanbul@^9.0.1"
+      }
+    ]
+  },
+  "elapsed_seconds": 201.29
+}
